@@ -1,0 +1,15 @@
+{
+   "local-sync.uploadOnSave": true,
+   "local-sync.autoUpload": true,
+   "local-sync.downloadOnOpen": false,
+   "local-sync.remotePath": "/path/to/remote/directory",
+   "local-sync.host": "your.server.com",
+   "local-sync.port": 22,
+   "local-sync.username": "your_username",
+   "local-sync.password": "your_password",
+   "local-sync.ignore": [
+       ".git/",
+       "node_modules/",
+       "*.log"
+   ]
+}
